@@ -24,6 +24,7 @@ function Board({ cards, boardId, index }: IBoardProps) {
   const [isModal, setIsModal] = useState(false);
   const handleModal = () => setIsModal((prev) => !prev);
   const { register, handleSubmit, reset } = useForm<IFrom>();
+
   const onSubmit = (data: IFrom) => {
     const newItem = { ...data, id: Date.now() };
 

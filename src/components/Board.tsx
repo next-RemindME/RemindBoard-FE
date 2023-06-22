@@ -86,6 +86,7 @@ const Title = styled.h3`
   font-weight: bold;
   flex-grow: 1;
 `;
+
 const Wrapper = styled.div`
   width: 300px;
   min-height: 300px;
